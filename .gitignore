@@ -1,0 +1,8 @@
+jajaclicker/.vsconfig
+jajaclicker/Assembly-CSharp.csproj
+*.suo
+*.sln
+jajaclicker/Library/
+jajaclicker/Logs/
+jajaclicker/Temp/
+jajaclicker/UserSettings/
