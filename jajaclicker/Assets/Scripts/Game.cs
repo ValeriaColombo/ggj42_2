@@ -21,7 +21,7 @@ public class Game : MonoBehaviour
     void Start()
     {
         ChangeColor();
-        timesTxt.text = times.ToString();
+        timesTxt.text = "You made me laugh " + times.ToString() + " times";
     }
 
     private void ChangeColor()
@@ -38,7 +38,7 @@ public class Game : MonoBehaviour
         ChangeColor();
 
         times++;
-        timesTxt.text = times.ToString();
+        timesTxt.text = "You made me laugh " + times.ToString() + " times";
 
         audioSouce.clip = jas[Random.Range(0,jas.Length)];
         audioSouce.loop = false;
